@@ -1,0 +1,18 @@
+{
+  "name": "thorit/theme-skeleton",
+  "description": "Github installed theme",
+  "type": "shopware-platform-plugin",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "MyBasicTheme\\": "src/"
+    }
+  },
+  "extra": {
+    "shopware-plugin-class": "MyBasicTheme\\MyBasicTheme",
+    "label": {
+      "de-DE": "Theme MyBasicTheme plugin (Thorit)",
+      "en-GB": "Theme MyBasicTheme plugin (Thorit)"
+    }
+  }
+}
