@@ -1,23 +1,30 @@
 .training-card {
-    border: 1px solid $border-color;
+    border: none;
     margin-bottom: 20px;
-    background-color: $cardColor;
 }
 
 .img-container {
-    height: 150px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 10px;
+    height: 400px;
 
     img {
-        max-width: 100%;
+        width: 100%;
         max-height: 100%;
+        object-fit: cover;
+        aspect-ratio: 1 / 1;
     }
 }
 
 .card-body {
-    padding: 20px;
+    padding: 0;
+}
+
+.clickableCard {
+    position:absolute; 
+    width:100%;
+    height:100%;
+    top:0;
+    left: 0;
+  
+    z-index: 1;
 }
 
